@@ -26,14 +26,14 @@ result.onclick = function() {
     }        
     
 
-    let minsSum = 0;
+   
     for (let i = 0; i < minsArrys.length -1 ; i++) {
         minsSum  += minsArrys[i];
         
     }
     
 
-    let segsSum = 0;
+    
     for (let i = 0; i < segsArrys.length-1; i++) {
         segsSum += segsArrys[i];
         
